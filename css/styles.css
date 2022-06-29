@@ -169,13 +169,12 @@
 
 .footer
 { background-color: #2F303A;
-}
+  }
 
 .logo-footer {
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -189,8 +188,8 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    font-style:normal
-   }
+    font-style: normal;
+       }
 
    .footer-contacts {
     color: #FFFFFF;
@@ -200,3 +199,7 @@
    .footer-phone {
     color:rgba(255, 255, 255, 0.6)
    }
+
+   /*portfolio sheet*/
+
+   
