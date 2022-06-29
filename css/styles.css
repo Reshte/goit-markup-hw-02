@@ -1,0 +1,37 @@
+:root{
+    --primery-text-color: #212121
+    --secondary-text-color: #757575
+    --accent-text-color: #2196F3
+    --accent-color: #2196F3
+    }
+
+    body {
+    font-family: Roboto, sans-serif;
+    }
+    .header {
+    background-color: #FFFFFF;
+        }
+
+    .logo {
+        color: #000000;
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+     
+    }
+
+    .accent-logo{
+       color:  #2196F3;
+    }
+    
+    .header-item {
+        list-style-type: none;
+    }
+        
+    .header-link {
+        text-decoration: none;
+        color: var(--primery-text-color);
+    }    
