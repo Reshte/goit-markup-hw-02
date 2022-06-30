@@ -101,6 +101,7 @@
     font-size: 16px;
     line-height: 1.8px;
     color: #FFFFFF;
+    background-color:  var(--accent-color);
   }
 
   /*About section*/
@@ -202,4 +203,47 @@
 
    /*portfolio sheet*/
 
-   
+   .filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    background-color: #F5F4FA ;
+    
+
+  }
+    .filter-btn:hover,
+    .filter-btn:focus {
+      color: #FFFFFF;
+      background-color: var(--accent-color) ;
+    }
+
+  .hidden-title{
+    opacity: 0;
+  }
+   .portfolio-item,
+   .filter-item {
+      list-style-type: none;
+     }
+
+    .portfolio-link {
+      text-decoration: none;
+    }   
+    
+    .portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color)
+    }
+    
+    .portfolio-subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+       letter-spacing: 0.03em;
+       color: var(--secondary-text-color)
+    }
