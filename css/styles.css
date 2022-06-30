@@ -9,8 +9,7 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  background-color: var(--primery-bgc-color);
+    background-color: var(--primery-bgc-color);
 }
 
 /*header*/
@@ -59,7 +58,6 @@ body {
 .header-mail,
 .header-phone {
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -119,7 +117,6 @@ body {
 }
 
 .about-desc {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -217,7 +214,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  
+
   color: var(--primery-text-color);
   background-color: #f5f4fa;
 
