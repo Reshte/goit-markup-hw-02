@@ -100,7 +100,7 @@ body {
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.8px;
+  line-height: calc(30 / 16);
   font-family: inherit;
 
   color: var(--white-text-color);
@@ -146,7 +146,7 @@ body {
 /*Teem section*/
 
 .team-section {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-title {
