@@ -10,6 +10,16 @@
   --secondary-bgc-color: #2f303a;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Roboto, sans-serif;
 }
