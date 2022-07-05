@@ -33,6 +33,12 @@ body {
   list-style: none;
 }
 
+.container {
+  width: 1200px;
+  outline: 5px solid red;
+  margin: 0 auto;
+}
+
 /*header*/
 
 .header {
@@ -105,6 +111,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
+
+  margin-top: 0;
 }
 
 .hero-btn {
